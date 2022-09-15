@@ -1,8 +1,15 @@
+import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { useSelector, useDispatch } from 'react-redux'
+import { decrement, increment } from '../slices/counterSlice'
 
 export default function Home() {
+
+  const count = useSelector(state => state.counter.value)
+  const dispatch = useDispatch()
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,47 +19,31 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <div className="row">
+          <div className="container mx-auto">
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            <button
+              aria-label="Increment value"
+              onClick={() => dispatch(increment())}
+              className={"bg-red-400 py-2 px-6"}
+            >
+              Increment
+            </button>
+            <span className={"font-bold text-6xl"}>{count}</span>
+            <button
+              aria-label="Decrement value"
+              onClick={() => dispatch(decrement())}
+              className={"bg-blue-400 py-2 px-6"}
+            >
+              Decrement
+            </button>
+          </div>
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={`${styles.footer} fixed bottom-0 bg-gray-400 w-full text-center`}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
