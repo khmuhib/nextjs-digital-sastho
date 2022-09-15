@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment } from '../slices/counterSlice'
@@ -19,9 +18,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <h2>Home Page</h2>
 
 
-        <div className="row">
+        {/* <div className="row">
           <div className="container mx-auto">
 
             <button
@@ -40,21 +40,8 @@ export default function Home() {
               Decrement
             </button>
           </div>
-        </div>
+        </div> */}
       </main>
-
-      <footer className={`${styles.footer} fixed bottom-0 bg-gray-400 w-full text-center`}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }
