@@ -2,7 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment } from '../slices/counterSlice'
+import Image from 'next/image'
+// import { decrement, increment } from '../slices/counterSlice'
+import HomePageHeroSection from '../components/HomePageHeroSection'
 
 export default function Home() {
 
@@ -18,29 +20,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h2>Home Page</h2>
-
-
-        {/* <div className="row">
-          <div className="container mx-auto">
-
-            <button
-              aria-label="Increment value"
-              onClick={() => dispatch(increment())}
-              className={"bg-red-400 py-2 px-6"}
-            >
-              Increment
-            </button>
-            <span className={"font-bold text-6xl"}>{count}</span>
-            <button
-              aria-label="Decrement value"
-              onClick={() => dispatch(decrement())}
-              className={"bg-blue-400 py-2 px-6"}
-            >
-              Decrement
-            </button>
-          </div>
-        </div> */}
+        <HomePageHeroSection/>
       </main>
     </div>
   )

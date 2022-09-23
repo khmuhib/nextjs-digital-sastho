@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/globals.css'
 import store from '../store'
 import { Provider } from 'react-redux'
-import Layouts from './../src/components/Layouts'
+import Layouts from './../components/Layouts'
 
 function MyApp({ Component, pageProps }) {
   return (
