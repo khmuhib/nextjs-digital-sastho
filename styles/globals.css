@@ -32,3 +32,20 @@ a {
 .show {
   max-height: 200px;
 }
+
+
+.test {
+  color: red!important;
+}
+
+.test::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 85px;
+  height: 136px;
+  width: 92px;
+  background-image: url('/assets/images/p1.png');
+  z-index: -9999;
+}

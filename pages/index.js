@@ -6,6 +6,9 @@ import Image from 'next/image'
 // import { decrement, increment } from '../slices/counterSlice'
 import HomePageHeroSection from '../components/HomePageHeroSection'
 import AccordianSection from '../components/AccordianSection'
+import HomeCovidAlert from '../components/HomeCovidAlert'
+import HomeCareerWith from '../components/HomeCareerWith'
+import HomeSeeVideo from '../components/HomeSeeVideo'
 
 export default function Home() {
 
@@ -22,7 +25,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <HomePageHeroSection/>
+        <HomeCovidAlert/>
+        <HomeCareerWith/>
+        <HomeSeeVideo/>
         <AccordianSection/>
+
       </main>
     </div>
   )
