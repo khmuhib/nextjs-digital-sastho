@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import Image from 'next/image'
 // import { decrement, increment } from '../slices/counterSlice'
 import HomePageHeroSection from '../components/HomePageHeroSection'
+import AccordianSection from '../components/AccordianSection'
 
 export default function Home() {
 
@@ -21,6 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <HomePageHeroSection/>
+        <AccordianSection/>
       </main>
     </div>
   )
