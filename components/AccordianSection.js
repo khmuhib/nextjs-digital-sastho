@@ -43,7 +43,7 @@ export default function AccordianSection() {
                     <div className="accordian">
                         {
                             data.map((item, i) => (
-                                <div className="bg-sky-200 item my-2">
+                                <div className="bg-sky-200 item my-2" key={i}>
                                     <div className="bg-orange-200 title flex justify-between items-center cursor-pointer py-5" onClick={()=> toggle(i)}>
                                         <h2>{item.qus}</h2>
                                         <span>{selected === i ? '-':'+'}</span>

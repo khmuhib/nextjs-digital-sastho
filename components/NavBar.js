@@ -88,7 +88,7 @@ export default function NavBar() {
 
 
         <div className="h-16 w-36 relative  block lg:hidden">
-          <Image src="/../public/assets/images/logo.png" alt="logo" layout="fill" width={64} height={144}/>
+          <Image src="/../public/assets/images/logo.png" alt="logo" layout="fill"/>
         </div>
       </div>
 
