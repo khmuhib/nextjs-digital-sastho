@@ -10,7 +10,6 @@ import HomeCovidAlert from '../components/HomeCovidAlert'
 import HomeCareerWith from '../components/HomeCareerWith'
 import HomeSeeVideo from '../components/HomeSeeVideo'
 import SectionTitleOne from '../components/SectionTitleOne'
-import SectionTitleTwo from '../components/SectionTitleTwo'
 import HomeSliderSection from '../components/HomeSliderSection'
 
 export default function Home() {
@@ -32,7 +31,6 @@ export default function Home() {
         <HomeCareerWith/>
         <HomeSeeVideo />
         <SectionTitleOne />
-        <SectionTitleTwo />
         <HomeSliderSection/>
         <AccordianSection/>
 

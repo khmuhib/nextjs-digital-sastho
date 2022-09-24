@@ -66,7 +66,7 @@ export default function NavBar() {
 
 
           {/* Desktop Display */}
-          <div className="navbar-end hidden lg:flex">
+          <div className="navbar-end hidden lg:flex z-50">
             <ul className="menu menu-horizontal p-0">
               <li><a>Item 1</a></li>
               <li tabIndex={0}>

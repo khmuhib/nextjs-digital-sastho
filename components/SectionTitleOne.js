@@ -3,7 +3,7 @@ import React from 'react'
 export default function SectionTitleOne() {
   return (
       <>
-          <div className="row">
+          <div className="row py-10">
               <div className="container mx-auto">
                   <div className="text-center">
                       {/* <h1 className='text-[40px] text-center font-bold relative before:'>Download Your One</h1> */}

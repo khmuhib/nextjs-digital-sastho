@@ -21,59 +21,110 @@ export default function HomeSliderSection() {
                 <div className="container mx-auto">
 
                     <Swiper
-                        slidesPerView={1}
+                        slidesPerView={3}
                         spaceBetween={10}
-                        // slidesPerGroup={3}
-                        /* centeredSlides={true} */
-                        loop={true}
-                        loopFillGroupWithBlank={true}
+                        loop={ true}
+
+                        pagination={{
+                            clickable: true,
+                        }}
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: false,
                         }}
-                        pagination={{
-                            clickable: true,
-                        }}
                         breakpoints={{
-                          640: {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                          },
-                          768: {
-                            slidesPerView: 3,
-                            spaceBetween: 40,
-                          },
-                          1024: {
-                            slidesPerView: 3,
-                            spaceBetween: 50,
-                          },
+                            640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 50,
+                            },
                         }}
                         navigation={true}
                         modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <div className="h-28 bg-gradient-to-r from-[#128041] to-[#2BB673]">
+                            <div className="bg-gradient-to-r from-[#128041] to-[#2BB673] overflow-hidden rounded-xl">
                                 <div className="flex">
-                                    <div className="">
-                                        <h3>Download The Doctor App</h3>
-                                        <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
+                                    <div className="px-5 py-10">
+                                        <h3 className="text-[32px] text-white font-semibold">Download The Doctor App</h3>
+                                        <p className="text-[12px] text-[#CFC151] my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                         <div className="">
-                                            <div className="flex gap-5">
-                                                <div className="h-10 w-28 relative">
+                                            <div className="flex gap-2">
+                                                <div className="h-[24px] w-[75px] relative">
                                                     <Image src="/assets/images/a-play.png" alt="logo" layout="fill" />
                                                 </div>
-                                                <div className="h-10 w-28 relative">
+                                                <div className="h-[24px] w-[75px] relative">
                                                     <Image src="/assets/images/a-play.png" alt="logo" layout="fill" />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="">
-                                        <div className="h-10 w-28 relative">
+                                    <div className="flex items-end">
+                                        <div className="h-[200px] w-[150px] relative before:content-[''] before:block before:h-[200px] before:w-[200px] before:bg-yellow-200 before:rounded-full before:absolute before:top-[50px] before:left-[-30px]">
                                             <Image className="" src="/assets/images/s1.png" alt="logo" layout="fill" />
                                         </div>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className="bg-gradient-to-r from-[#128041] to-[#2BB673] overflow-hidden rounded-xl">
+                                <div className="flex">
+                                    <div className="px-5 py-10">
+                                        <h3 className="text-[32px] text-white font-semibold">Download The Doctor App</h3>
+                                        <p className="text-[12px] text-[#CFC151] my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        <div className="">
+                                            <div className="flex gap-2">
+                                                <div className="h-[24px] w-[75px] relative">
+                                                    <Image src="/assets/images/a-play.png" alt="logo" layout="fill" />
+                                                </div>
+                                                <div className="h-[24px] w-[75px] relative">
+                                                    <Image src="/assets/images/a-play.png" alt="logo" layout="fill" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-end">
+                                        <div className="h-[200px] w-[150px] relative before:content-[''] before:block before:h-[200px] before:w-[200px] before:bg-yellow-200 before:rounded-full before:absolute before:top-[50px] before:left-[-30px]">
+                                            <Image className="" src="/assets/images/s2.png" alt="logo" layout="fill" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className="bg-gradient-to-r from-[#128041] to-[#2BB673] overflow-hidden rounded-xl">
+                                <div className="flex">
+                                    <div className="px-5 py-10">
+                                        <h3 className="text-[32px] text-white font-semibold">Download The Doctor App</h3>
+                                        <p className="text-[12px] text-[#CFC151] my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                        <div className="">
+                                            <div className="flex gap-2">
+                                                <div className="h-[24px] w-[75px] relative">
+                                                    <Image src="/assets/images/a-play.png" alt="logo" layout="fill" />
+                                                </div>
+                                                <div className="h-[24px] w-[75px] relative">
+                                                    <Image src="/assets/images/a-play.png" alt="logo" layout="fill" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-end">
+                                        <div className="h-[200px] w-[150px] relative before:content-[''] before:block before:h-[200px] before:w-[200px] before:bg-yellow-200 before:rounded-full before:absolute before:top-[50px] before:left-[-30px]">
+                                            <Image className="" src="/assets/images/s1.png" alt="logo" layout="fill" />
+                                        </div>
                                     </div>
                                 </div>
 
