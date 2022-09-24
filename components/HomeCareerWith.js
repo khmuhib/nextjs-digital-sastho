@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function HomeCareerWith() {
     return (
         <>
-            <div className="row bg-slate-400 py-10">
+            <div className="row py-10">
                 <div className="container mx-auto">
                     <div className="grid md:grid-cols-2 grid-cols-1 items-center">
                         <div className="ml-10">

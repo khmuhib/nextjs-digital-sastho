@@ -5,7 +5,7 @@ export default function HomePageHeroSection() {
     return (
         <>
 
-            <div className="row md:h-[750px] h-[1600px] bg-green-200">
+            <div className="row md:h-[750px] h-[1600px]">
                 <div className="container mx-auto">
                     <div className="relative">
                         <div className="flex top-0 left-0 right-0 m-auto absolute py-16 md:mx-0 mx-5">
