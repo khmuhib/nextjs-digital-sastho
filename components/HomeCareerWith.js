@@ -21,7 +21,7 @@ export default function HomeCareerWith() {
                             <div className="w-[80%] m-auto bg-[#2BB673] rounded-md overflow-hidden">
                                 <p className='py-8 px-5 text-center text-[16px] text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 <div className="h-[343px] w-full relative">
-                                    <Image src="/../public/assets/images/hand.png" alt="logo" layout="fill" />
+                                    <Image src="/assets/images/hand.png" alt="logo" layout="fill" />
                                 </div>
                             </div>
                         </div>

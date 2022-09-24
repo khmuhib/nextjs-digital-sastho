@@ -58,7 +58,7 @@ export default function NavBar() {
               </ul>
             </div>
             <div className="h-16 w-40 relative -mt-[25px] hidden lg:block">
-              <Image src="/../public/assets/images/logo.png" alt="logo" layout="fill"/>
+              <Image src="/assets/images/logo.png" alt="logo" layout="fill"/>
             </div>
           </div>
           {/* Mobile Display */}
@@ -88,7 +88,7 @@ export default function NavBar() {
 
 
         <div className="h-16 w-36 relative  block lg:hidden">
-          <Image src="/../public/assets/images/logo.png" alt="logo" layout="fill"/>
+          <Image src="/assets/images/logo.png" alt="logo" layout="fill"/>
         </div>
       </div>
 
