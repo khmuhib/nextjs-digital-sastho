@@ -9,6 +9,8 @@ import AccordianSection from '../components/AccordianSection'
 import HomeCovidAlert from '../components/HomeCovidAlert'
 import HomeCareerWith from '../components/HomeCareerWith'
 import HomeSeeVideo from '../components/HomeSeeVideo'
+import SectionTitleOne from '../components/SectionTitleOne'
+import SectionTitleTwo from '../components/SectionTitleTwo'
 
 export default function Home() {
 
@@ -27,7 +29,9 @@ export default function Home() {
         <HomePageHeroSection/>
         <HomeCovidAlert/>
         <HomeCareerWith/>
-        <HomeSeeVideo/>
+        <HomeSeeVideo />
+        <SectionTitleOne />
+        <SectionTitleTwo/>
         <AccordianSection/>
 
       </main>
