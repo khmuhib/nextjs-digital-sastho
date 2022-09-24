@@ -83,9 +83,7 @@ export default function HomePageHeroSection() {
                                         <p className='mt-4 text-[20px] font-semibold text-white'>Doctor</p>
                                     </div>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
