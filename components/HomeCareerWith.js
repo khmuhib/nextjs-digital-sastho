@@ -10,7 +10,7 @@ export default function HomeCareerWith() {
                         <div className="ml-10">
                             <div className="h-44">
                                 <div className="relative top-0 left-0 z-10">
-                                    <h1 className={`bg-red-200 inline-table md:text-left text-center lg:text-[60px] text-[40px] text-[#128041] font-bold before:content-[''] before:block before:w-[96px] before:h-[136px] before:bg-no-repeat before:top-[40px] lg:before:right-[0px] before:right-[0px] md:before:right-[0px] before:absolute before:bg-[url('/assets/images/p1.png')]`}>Career With Digital Shastho.</h1>
+                                    <h1 className={`inline-table md:text-left text-center lg:text-[60px] text-[40px] text-[#128041] font-bold before:content-[''] before:block before:w-[96px] before:h-[136px] before:bg-no-repeat before:top-[40px] lg:before:right-[0px] before:right-[0px] md:before:right-[0px] before:absolute before:bg-[url('/assets/images/p1.png')]`}>Career With Digital Shastho.</h1>
                                 </div>
                             </div>
                             <div className="md:text-left text-center md:my-5 my-2">

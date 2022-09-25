@@ -54,7 +54,7 @@ export default function HomeSliderSection() {
                             <div className="bg-gradient-to-r from-[#128041] to-[#2BB673] overflow-hidden rounded-xl">
                                 <div className="flex">
                                     <div className="px-5 py-10">
-                                        <h3 className="text-[32px] text-white font-semibold">Download The Doctor App</h3>
+                                        <h3 className="text-[30px] text-white font-semibold">Download The Doctor App</h3>
                                         <p className="text-[12px] text-[#CFC151] my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                         <div className="">
                                             <div className="flex gap-2">
@@ -81,7 +81,7 @@ export default function HomeSliderSection() {
                             <div className="bg-gradient-to-r from-[#128041] to-[#2BB673] overflow-hidden rounded-xl">
                                 <div className="flex">
                                     <div className="px-5 py-10">
-                                        <h3 className="text-[32px] text-white font-semibold">Download The Doctor App</h3>
+                                        <h3 className="text-[30px] text-white font-semibold">Download The Doctor App</h3>
                                         <p className="text-[12px] text-[#CFC151] my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                         <div className="">
                                             <div className="flex gap-2">
@@ -108,7 +108,7 @@ export default function HomeSliderSection() {
                             <div className="bg-gradient-to-r from-[#128041] to-[#2BB673] overflow-hidden rounded-xl">
                                 <div className="flex">
                                     <div className="px-5 py-10">
-                                        <h3 className="text-[32px] text-white font-semibold">Download The Doctor App</h3>
+                                        <h3 className="text-[30px] text-white font-semibold">Download The Doctor App</h3>
                                         <p className="text-[12px] text-[#CFC151] my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                         <div className="">
                                             <div className="flex gap-2">
