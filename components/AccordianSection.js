@@ -40,16 +40,18 @@ export default function AccordianSection() {
         <>
             <div className="row">
                 <div className="container mx-auto">
-                    <div className="accordian">
+                    <div className="">
                         {
                             data.map((item, i) => (
-                                <div className="bg-sky-200 item my-2" key={i}>
-                                    <div className="bg-orange-200 title flex justify-between items-center cursor-pointer py-5" onClick={()=> toggle(i)}>
-                                        <h2>{item.qus}</h2>
-                                        <span>{selected === i ? '-':'+'}</span>
+                                <div className="bg-[#128041] my-2 rounded-md" key={i}>
+                                    <div className={` flex cursor-pointer items-center py-5 gap-5 rounded-t-md ${selected === i ?'bg-[#128041]':'bg-[#F6F6F6]'}`} onClick={() => toggle(i)}>
+                                        <div className={`h-[30px] w-[30px] rounded-full border ${selected===i?'border-white':'border-[#128041]'} ml-5`}>
+                                            <p className={`text-center font-bold ${selected===i ? 'text-white':'text-[#128041]'}`}>{selected === i ? '-' : '+'}</p>
+                                        </div>
+                                        <h2 className={`text-[22px] ${selected===i?'text-white':'text-[#128041]'}`}>{item.qus}</h2>
                                     </div>
-                                    <div className={`bg-lime-200 content ${selected=== i ? 'show': ''} max-h-0 overflow-hidden transition-all`}>
-                                        <p>{item.ans}</p>
+                                    <div className={`${selected === i ? 'max-h-[200px]' : 'max-h-0'} overflow-hidden transition-all`}>
+                                        <p className='text-[16px] text-white px-5 py-5'>{item.ans}</p>
                                     </div>
                                 </div>
                             ))

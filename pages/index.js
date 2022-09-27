@@ -43,6 +43,7 @@ export default function Home() {
         <HomeCounter />
         <SectionTitleTwo name="What client says" />
         <HomeClientSays/>
+        <SectionTitleOne name="Frequently Asked Questions"/>
         <AccordianSection/>
 
       </main>
