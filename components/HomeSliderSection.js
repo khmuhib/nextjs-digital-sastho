@@ -17,16 +17,16 @@ import Image from "next/image";
 export default function HomeSliderSection() {
     return (
         <>
-            <div className="row">
+            <div className="row px-5">
                 <div className="container mx-auto">
 
                     <Swiper
-                        slidesPerView={3}
+                        slidesPerView={1}
                         spaceBetween={10}
                         loop={ true}
 
                         pagination={{
-                            clickable: true,
+                            clickable: false,
                         }}
                         autoplay={{
                             delay: 2500,
@@ -46,7 +46,7 @@ export default function HomeSliderSection() {
                                 spaceBetween: 50,
                             },
                         }}
-                        navigation={true}
+                        navigation={false}
                         modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
                     >

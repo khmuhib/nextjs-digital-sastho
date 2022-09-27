@@ -17,6 +17,7 @@ import HomeOurTopFeature from '../components/HomeOurTopFeature'
 import HomeCounter from '../components/HomeCounter'
 import HomeClientSays from '../components/HomeClientSays'
 import SectionTitle from '../components/SectionTitle'
+import Footer from '../components/Footer'
 
 export default function Home() {
 
@@ -46,6 +47,7 @@ export default function Home() {
         <HomeClientSays />
         <SectionTitle name="Frequently Asked Questions"/>
         <AccordianSection />
+        <Footer/>
 
       </main>
     </div>
