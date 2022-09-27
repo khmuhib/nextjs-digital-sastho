@@ -15,6 +15,7 @@ import HomeSliderSection from '../components/HomeSliderSection'
 import HomeScreenShot from '../components/HomeScreenShot'
 import HomeOurTopFeature from '../components/HomeOurTopFeature'
 import HomeCounter from '../components/HomeCounter'
+import HomeClientSays from '../components/HomeClientSays'
 
 export default function Home() {
 
@@ -39,7 +40,9 @@ export default function Home() {
         <SectionTitleTwo name="App Screenshots" />
         <HomeScreenShot />
         <HomeOurTopFeature />
-        <HomeCounter/>
+        <HomeCounter />
+        <SectionTitleTwo name="What client says" />
+        <HomeClientSays/>
         <AccordianSection/>
 
       </main>
