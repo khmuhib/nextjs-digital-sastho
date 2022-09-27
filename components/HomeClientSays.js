@@ -14,6 +14,8 @@ import 'swiper/css';
 
 import Image from "next/image";
 
+import { AiTwotoneStar } from 'react-icons/ai';
+
 export default function HomeClientSays() {
     return (
         <>
@@ -56,7 +58,13 @@ export default function HomeClientSays() {
                                         <div className="relative h-[200px] w-[200px] md:m-0 mx-auto bg-slate-200 rounded-tl-[80px] rounded-br-[80px] overflow-hidden border-r-8 border-[#128041]">
                                             <Image className="" src="/assets/images/s1.png" alt="logo" layout="fill" />
                                         </div>
-                                        <div className=""></div>
+                                        <div className="">
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                        </div>
                                     </div>
                                     <div className="col-span-2">
                                         <p className="text-[16px] md:text-left text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -72,7 +80,13 @@ export default function HomeClientSays() {
                                         <div className="relative h-[200px] w-[200px] md:m-0 mx-auto bg-slate-200 rounded-tl-[80px] rounded-br-[80px] overflow-hidden border-r-8 border-[#128041]">
                                             <Image className="" src="/assets/images/s1.png" alt="logo" layout="fill" />
                                         </div>
-                                        <div className=""></div>
+                                        <div className="">
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                        </div>
                                     </div>
                                     <div className="col-span-2">
                                         <p className="text-[16px] md:text-left text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
