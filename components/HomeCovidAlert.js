@@ -6,7 +6,7 @@ export default function HomeCovidAlert() {
         <div className="row py-16">
             <div className="container mx-auto">
                 <div className="grid lg:grid-cols-4 grid-cols-1 gap-14 px-10">
-                    <div className="bg-red-200 bg-[url('/assets/images/why-sastho.png')] bg-no-repeat bg-center bg-cover md:px-16 lg:px-20 py-10 px-10 rounded-md">
+                    <div className="bg-red-200 bg-[url('/assets/images/why-sastho.png')] bg-no-repeat bg-center bg-cover md:px-10 py-10 rounded-md">
                         <h2 className='text-[22px] font-semibold text-white mb-5'>Why digital shastho</h2>
                         <p className='text-[16px] font-normal text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     </div>
