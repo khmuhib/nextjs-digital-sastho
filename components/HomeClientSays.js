@@ -59,11 +59,11 @@ export default function HomeClientSays() {
                                             <Image className="" src="/assets/images/s1.png" alt="logo" layout="fill" />
                                         </div>
                                         <div className="">
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
                                         </div>
                                     </div>
                                     <div className="col-span-2">
@@ -81,11 +81,11 @@ export default function HomeClientSays() {
                                             <Image className="" src="/assets/images/s1.png" alt="logo" layout="fill" />
                                         </div>
                                         <div className="">
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
-                                            <a href=""><AiTwotoneStar color='yellow' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
+                                            <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
                                         </div>
                                     </div>
                                     <div className="col-span-2">
