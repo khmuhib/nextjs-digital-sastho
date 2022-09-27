@@ -16,6 +16,7 @@ import HomeScreenShot from '../components/HomeScreenShot'
 import HomeOurTopFeature from '../components/HomeOurTopFeature'
 import HomeCounter from '../components/HomeCounter'
 import HomeClientSays from '../components/HomeClientSays'
+import SectionTitle from '../components/SectionTitle'
 
 export default function Home() {
 
@@ -42,9 +43,9 @@ export default function Home() {
         <HomeOurTopFeature />
         <HomeCounter />
         <SectionTitleTwo name="What client says" />
-        <HomeClientSays/>
-        <SectionTitleOne name="Frequently Asked Questions"/>
-        <AccordianSection/>
+        <HomeClientSays />
+        <SectionTitle name="Frequently Asked Questions"/>
+        <AccordianSection />
 
       </main>
     </div>
