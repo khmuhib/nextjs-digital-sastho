@@ -13,6 +13,7 @@ import SectionTitleOne from '../components/SectionTitleOne'
 import SectionTitleTwo from '../components/SectionTitleTwo'
 import HomeSliderSection from '../components/HomeSliderSection'
 import HomeScreenShot from '../components/HomeScreenShot'
+import HomeOurTopFeature from '../components/HomeOurTopFeature'
 
 export default function Home() {
 
@@ -35,7 +36,8 @@ export default function Home() {
         <SectionTitleOne name="Download Your One"/>
         <HomeSliderSection />
         <SectionTitleTwo name="App Screenshots" />
-        <HomeScreenShot/>
+        <HomeScreenShot />
+        <HomeOurTopFeature/>
         <AccordianSection/>
 
       </main>
