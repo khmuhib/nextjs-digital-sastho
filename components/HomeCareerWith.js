@@ -13,8 +13,8 @@ export default function HomeCareerWith() {
                                     <h1 className={`inline-table md:text-left text-center lg:text-[60px] text-[40px] text-[#128041] font-bold before:content-[''] before:block before:w-[96px] before:h-[136px] before:bg-no-repeat before:top-[40px] lg:before:right-[0px] before:right-[0px] md:before:right-[0px] before:absolute before:bg-[url('/assets/images/p1.png')]`}>Career With Digital Shastho.</h1>
                                 </div>
                             </div>
-                            <div className="md:text-left text-center md:my-5 my-2">
-                                <button className='bg-[#2BB673] text-white text-[32px] py-3 px-7 rounded-md'>Take a Ture</button>
+                            <div className="md:text-left text-center md:my-5 my-5">
+                                <button className='bg-[#2BB673] text-white md:text-[32px] text-[20px] py-[10px] px-[20px] rounded-md'>Take a Ture</button>
                             </div>
                         </div>
                         <div className="">

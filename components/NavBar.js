@@ -50,9 +50,11 @@ export default function NavBar() {
                 <li><Link href="/contact">Contact</Link></li>
               </ul>
             </div>
-            <div className="h-16 w-40 relative -mt-[25px] hidden lg:block">
-              <Image src="/assets/images/logo.png" alt="logo" layout="fill" />
-            </div>
+            <Link href="/">
+              <div className="h-16 w-[190px] relative -mt-[25px] hidden lg:block hover:cursor-pointer">
+                <Image src="/assets/images/logo.png" alt="logo" layout="fill" />
+              </div>
+            </Link>
           </div>
           {/* Mobile Display */}
 
@@ -93,10 +95,12 @@ export default function NavBar() {
 
         {/* Desktop Display */}
 
+        <Link href="/">
+          <div className="h-16 w-[300px] relative  block lg:hidden hover:cursor-pointer">
+            <Image src="/assets/images/logo.png" alt="logo" layout="fill" />
+          </div>
 
-        <div className="h-16 w-36 relative  block lg:hidden">
-          <Image src="/assets/images/logo.png" alt="logo" layout="fill" />
-        </div>
+        </Link>
       </div>
 
 
