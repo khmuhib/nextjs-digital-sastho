@@ -49,7 +49,10 @@ export default function NavBar() {
                     <a>Home</a>
                   </Link>
                   <Link href="/about">
-                    <a>About</a>
+                    <a>About Us</a>
+                  </Link>
+                  <Link href="/career">
+                    <a>Career</a>
                   </Link>
 
                 </li>
@@ -84,7 +87,12 @@ export default function NavBar() {
               </li>
               <li>
                 <Link href="/about">
-                  About
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/career">
+                  Career
                 </Link>
               </li>
               <li tabIndex={0}>

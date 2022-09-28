@@ -49,7 +49,7 @@ export default function AboutMarketing() {
                                 <>
 
                                     <div className="relative" key={i}>
-                                        <div className="relative h-[50px] w-[300px] bg-red-200" onClick={() => setSelected(!selected)}>
+                                        <div className="relative h-[120px] w-[300px]" onClick={() => setSelected(!selected)}>
                                             <Image src={item.img} alt="logo" layout='fill'></Image>
                                         </div>
                                     </div>
