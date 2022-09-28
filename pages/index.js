@@ -33,11 +33,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <HomePageHeroSection/>
-        <HomeCovidAlert/>
-        <HomeCareerWith/>
+        <HomePageHeroSection />
+        <HomeCovidAlert />
+        <HomeCareerWith />
         <HomeSeeVideo />
-        <SectionTitleOne name="Download Your One"/>
+         <SectionTitleOne name="Download Your One" />
         <HomeSliderSection />
         <SectionTitleTwo name="App Screenshots" />
         <HomeScreenShot />
@@ -45,9 +45,8 @@ export default function Home() {
         <HomeCounter />
         <SectionTitleTwo name="What client says" />
         <HomeClientSays />
-        <SectionTitle name="Frequently Asked Questions"/>
-        <AccordianSection />
-        <Footer/>
+        <SectionTitle name="Frequently Asked Questions" />
+        <Footer />
 
       </main>
     </div>

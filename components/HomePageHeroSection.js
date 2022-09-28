@@ -40,7 +40,7 @@ export default function HomePageHeroSection() {
                                 </div>
                             </div>
                             
-                            <div className="relative h-[450px] w-[360px] rounded-tl-[100px] rounded-br-[100px] bg-[#D9D9D9] text-center md:top-[-100px] top-[150px] left-0 right-0 m-auto">
+                            <div className="relative h-[450px] w-[310px] rounded-tl-[100px] rounded-br-[100px] bg-[#D9D9D9] text-center md:top-[-100px] top-[150px] left-0 right-0 m-auto">
                                 <Image className='absolute' src="/assets/images/home-hero-girl.png" alt="logo" layout="fill" />
                             </div>
 

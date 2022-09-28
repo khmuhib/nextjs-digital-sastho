@@ -11,10 +11,10 @@ import { AiOutlineYoutube } from 'react-icons/ai';
 export default function Footer() {
   return (
     <>
-      <div className="row bg-[url('/assets/images/footer.png')] md:h-[600px] h-[1000px] relative bg-no-repeat bg-cover overflow-hidden">
-        <div className="h-full inset-0 bg-[#128041] bg-opacity-90 w-full absolute top-0 left-0">
+      <div className="row bg-[url('/assets/images/footer.png')] md:h-[600px] h-[1050px] relative bg-no-repeat bg-cover overflow-hidden">
+        <div className="h-full inset-0 bg-[#128041] bg-opacity-90 w-full absolute top-0 left-0 ">
 
-          <div className="container mx-auto md:py-32 py-16 px-5">
+          <div className="container mx-auto md:py-32 py-16 px-5 ">
             <div className="grid md:grid-cols-4 grid-cols-2">
               <div className="md:col-span-1 col-span-2 md:mb-5 mb-10">
                 <div className="relative h-[100px] w-[200px] bg-white">

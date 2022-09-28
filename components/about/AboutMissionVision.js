@@ -15,7 +15,7 @@ export default function AboutMissionVision() {
                                     <h2 className='text-[22px] text-[#2BB673] font-semibold'>Vision</h2>
                                     <hr className='bg-gray-500 py-[1px] w-[40px]'/>
                                 </div>
-                                <div className="bg-[url('/assets/images/footer.png')] relative md:h-[750px] lg:h-[550px] h-[650px]">
+                                <div className="bg-[url('/assets/images/footer.png')] relative md:h-[750px] lg:h-[550px] h-[800px]">
                                     <div className="inset-0 bg-[#202020] bg-opacity-90 w-full absolute top-0 left-0">
                                         <div className="flex items-center justify-center align-middle content-center">
                                             <div className="py-16 px-3">
@@ -53,7 +53,7 @@ export default function AboutMissionVision() {
                                     <h2 className='text-[22px] text-[#2BB673] font-semibold'>Mission</h2>
                                     <hr className='bg-gray-500 py-[1px] w-[40px]'/>
                                 </div>
-                                <div className="bg-[url('/assets/images/footer.png')] relative md:h-[750px] lg:h-[550px] h-[650px]">
+                                <div className="bg-[url('/assets/images/footer.png')] relative md:h-[750px] lg:h-[550px] h-[800px]">
                                     <div className="inset-0 bg-[#202020] bg-opacity-90 w-full absolute top-0 left-0">
                                         <div className="flex items-center justify-center align-middle content-center">
                                             <div className="py-16 px-3">

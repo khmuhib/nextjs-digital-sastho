@@ -7,7 +7,7 @@ export default function HomeOurTopFeature() {
             <div className="row pb-10 pt-[100px]">
                 <div className="container mx-auto">
                     <div className="grid md:grid-cols-4 grid-cols-1 md:gap-x-16 gap-10 px-5 md:px-0">
-                        <div className="relative before:content-[''] before:absolute before:block md:before:h-[300px] md:before:w-[600px] before:border-2 before:border-[#2BB673] before:rounded-tr-[150px] before:rounded-br-[150px] md:before:top-[-30px] md:before:left-[150px] z-[-10] before:top-[-30px] before:left-[100px] before:h-[300px] before:w-[320px] px-3 md:col-span-2 lg:col-span-1">
+                        <div className="relative before:content-[''] before:absolute before:block md:before:h-[300px] md:before:w-[600px] before:border-2 before:border-[#2BB673] before:rounded-tr-[150px] before:rounded-br-[150px] md:before:top-[-30px] md:before:left-[150px] z-[-10] before:top-[-30px] before:left-[100px] before:h-[300px] before:w-[250px] px-3 md:col-span-2 lg:col-span-1">
                             <div className="bg-[#128041] md:h-full md:w-full w-[300px] h-[405px] flex flex-col justify-center items-center rounded-md z-10 relative">
                                 <div className="">
                                     <h2 className='table text-[38px] font-bold text-white before:block before:h-[5px] before:w-[50px] before:bg-white before:absolute before:left-[80px] before:top-[32px]'>Our</h2>
