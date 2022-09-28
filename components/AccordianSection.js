@@ -38,7 +38,7 @@ export default function AccordianSection() {
 
     return (
         <>
-            <div className="row py-10">
+            <div className="row">
                 <div className="container mx-auto">
                     <div className="px-5">
                         {

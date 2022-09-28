@@ -24,7 +24,7 @@ export default function HomeClientSays() {
                     <Swiper
                         //slidesPerView={1}
                         spaceBetween={10}
-                        loop={true}
+                        loop={false}
 
                         pagination={{
                             clickable: false,
@@ -58,7 +58,7 @@ export default function HomeClientSays() {
                                         <div className="relative h-[200px] w-[200px] md:m-0 mx-auto bg-slate-200 rounded-tl-[80px] rounded-br-[80px] overflow-hidden border-r-8 border-[#128041]">
                                             <Image className="" src="/assets/images/s1.png" alt="logo" layout="fill" />
                                         </div>
-                                        <div className="">
+                                        <div className="flex md:justify-start justify-center">
                                             <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
                                             <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
                                             <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
@@ -68,7 +68,7 @@ export default function HomeClientSays() {
                                     </div>
                                     <div className="col-span-2">
                                         <p className="text-[16px] md:text-left text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a className="underline block mt-[100px] text-right text-[#128041] text-[16px]" href="#">Mark Anthony</a>
+                                        <a className="underline block mt-[100px] md:text-right text-center text-[#128041] text-[16px]" href="#">Mark Anthony</a>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ export default function HomeClientSays() {
                                         <div className="relative h-[200px] w-[200px] md:m-0 mx-auto bg-slate-200 rounded-tl-[80px] rounded-br-[80px] overflow-hidden border-r-8 border-[#128041]">
                                             <Image className="" src="/assets/images/s1.png" alt="logo" layout="fill" />
                                         </div>
-                                        <div className="">
+                                        <div className="flex md:justify-start justify-center">
                                             <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
                                             <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
                                             <a href=""><AiTwotoneStar color='#FFE91F' size={20} className="inline-block" /></a>
@@ -90,7 +90,7 @@ export default function HomeClientSays() {
                                     </div>
                                     <div className="col-span-2">
                                         <p className="text-[16px] md:text-left text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                        <a className="underline block mt-[100px] text-right text-[#128041] text-[16px]" href="#">Mark Anthony</a>
+                                        <a className="underline block mt-[100px] md:text-right text-center text-[#128041] text-[16px]" href="#">Mark Anthony</a>
                                     </div>
                                 </div>
                             </div>
