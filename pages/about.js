@@ -1,9 +1,11 @@
 import React from 'react'
+import AboutCareer from '../components/about/AboutCareer'
 import AboutHeader from '../components/about/AboutHeader'
 import AboutMarketing from '../components/about/AboutMarketing'
 import AboutMissionVision from '../components/about/AboutMissionVision'
 import AboutWhatDigitalSastho from '../components/about/AboutWhatDigitalSastho'
 import AboutWhoWeAre from '../components/about/AboutWhoWeAre'
+import FooterTwo from '../components/FooterTwo'
 
 export default function about() {
     return (
@@ -32,7 +34,9 @@ export default function about() {
                 </div>
             </div>
 
-            <AboutMarketing/>
+            <AboutMarketing />
+            <AboutCareer />
+            <FooterTwo/>
 
 
         </>

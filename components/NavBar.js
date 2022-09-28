@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function NavBar() {
 
@@ -43,7 +44,15 @@ export default function NavBar() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </label>
               <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Item 1</a></li>
+                <li>
+                  <Link href="/">
+                    <a>Home</a>
+                  </Link>
+                  <Link href="/about">
+                    <a>About</a>
+                  </Link>
+
+                </li>
                 <li tabIndex={0}>
                   <a className="justify-between">
                     Parent
@@ -58,7 +67,7 @@ export default function NavBar() {
               </ul>
             </div>
             <div className="h-16 w-40 relative -mt-[25px] hidden lg:block">
-              <Image src="/assets/images/logo.png" alt="logo" layout="fill"/>
+              <Image src="/assets/images/logo.png" alt="logo" layout="fill" />
             </div>
           </div>
           {/* Mobile Display */}
@@ -68,7 +77,16 @@ export default function NavBar() {
           {/* Desktop Display */}
           <div className="navbar-end hidden lg:flex z-50">
             <ul className="menu menu-horizontal p-0">
-              <li><a>Item 1</a></li>
+              <li>
+                <Link href="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/about">
+                  About
+                </Link>
+              </li>
               <li tabIndex={0}>
                 <a>
                   Parent
@@ -88,7 +106,7 @@ export default function NavBar() {
 
 
         <div className="h-16 w-36 relative  block lg:hidden">
-          <Image src="/assets/images/logo.png" alt="logo" layout="fill"/>
+          <Image src="/assets/images/logo.png" alt="logo" layout="fill" />
         </div>
       </div>
 
