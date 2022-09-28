@@ -40,7 +40,7 @@ export default function AboutMarketing() {
         <>
 
 
-            <div className="row =">
+            <div className="row md:block hidden">
                 <div className="container mx-auto">
                     <div className="flex gap-5 justify-between px-5">
                         {

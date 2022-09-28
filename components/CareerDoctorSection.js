@@ -7,7 +7,7 @@ export default function CareerDoctorSection() {
             <div className="row bg-[url('/assets/images/cr4.png')] py-[100px] bg-cover bg-no-repeat">
                 <div className="container mx-auto">
                     <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:gap-0 px-5 md:px-0">
-                        <div className="">
+                        <div className="overflow-hidden">
                             <div className="">
                                 <div className="w-[400px] flex flex-col h-[350px] justify-center items-center m-auto relative rounded-md before:content-[''] before:block before:absolute before:h-[260px] before:w-[350px] before:border-2 before:border-white before:rounded-tl-[100px] before:rounded-br-[50px] before:bottom-[-40px] md:before:left-[-60px] before:left-[-40px]">
 
